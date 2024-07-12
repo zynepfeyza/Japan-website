@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gezi Rehberi-Tokyo</title>
+
+    <link rel="shortcut icon" type="image/png" href="\img\logo2.png" />
+
+    <link rel="stylesheet" type="text/css" href="\css\geziRehberi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #mainSlider {
+            height: 350px;
+            background: url('../img/tokyo.jpg') center center no-repeat;
+            background-size: cover;
+            margin-bottom: 145px;
+        }
+
+        #mainSlider2 {
+            height: 350px;
+            background: url('../img/tokyo2.jpg') center center no-repeat;
+            background-size: cover;
+            margin-bottom: 145px;
+            margin-top: 145px;
+        }
+    </style>
+
+</head>
+
+<body>
+<!--menu-->
+<%- include ("partials/_menu")%>
+
+    <!--main section-->
+
+    <section id="mainSlider" class="slider">
+        <div id="mainCaption" class="caption">
+            <h3>TOKYO</h3>
+            <p>Japonya'nın başkenti ve en büyük şehri.</p>
+        </div>
+    </section>
+
+    <div class="container-wrapper">
+
+    <aside class="sidebar">
+        <hr><br>
+        <h2>GEZİ REHBERİ</h2>
+        <hr><br>
+        <br>
+        <ul>
+            <li><a href="/tokyo">TOKYO</a></li>
+            <li><a href="/kyoto">KYOTO</a></li>
+            <li><a href="/nara">OSAKA</a></li>
+            <li><a href="/fujidagi">FUJİ DAĞI</a></li>
+            <li><a href="/nara">NARA</a></li>
+            <li><a href="/hiroshima">HIROSHIMA</a></li>
+        </ul>
+    </aside>
+
+    <div class="rehberAciklama">
+        <p>Tokyo şehri tam 3 bölgeden oluşan ve 36 milyondan fazla insana ev sahipliği yapan dünyanın en büyük metropolü
+            unvanına sahip. </p><br><br><br>
+        <h3>Tokyo’da Ulaşım</h3><br>
+        <p>Ulaşım konusunda dünya rekorunu kırmayı hedeflemiş Tokyo’da 900’e yakın tren istasyonu mevcuttur.
+            İstasyonlar sessiz, sakin ve bir o kadar ferahtır. Şehirler arası seyahat etmek için tercih edilen
+            araçlardan biri Shinkansen isimli hızlı trendir. Bu tren 6 saatte araba ile ulaşacağınız bir yolu 1 saate
+            ulaşma konforunu size ulaştırma imkanına sahiptir. Metrolar da trenler kadar hızlıdır ki şehir içinde en çok
+            tercih edilen toplu taşıma aracıdır. Bu sebepten otobüs veya arabalardan ziyade metro-tren kullanımı
+            Tokyo’da daha yaygındır. Taksi kullanımı metro ve tren kadar yaygın olmasa da hızlı ve güvenilir bir ulaşım
+            kaynağıdır. Ulaşım alanında oldukça gelişen bu şehirde de fiyatlar makul seviyededir ve mesafeye göre ücret
+            belirlenir.</p><br><br><br>
+            <h3>Tokyo’da Mimari Yapı</h3><br>
+        <p>1923 yılındaki büyük Kanto depremi ve 2. Dünya Savaşında aldığı darbelerden sonra şehirde eski ve tarihi
+            binaların sayısı azdır. Felaketlerin sonucunda şehir kentsel dönüşüme gitmiş, modern ve çağdaş mimari
+            yapıların sayısında artış gözlemlenmiştir. Genel olarak binalar küçük kare biçimli veya dikdörtgen şeklinde,
+            koyu renklerden kahve, gri, bej gibi tonlardan oluşmuş yapıya sahiptirler. Temiz ve kompakt şekilde inşa
+            edilen binalar yeni yapılmış gibi bir his verirler. Dünyanın en yüksek ikinci binası ünvanına sahip Tokyo
+            Skytree, Eiffel Kulesi’ni andıran Tokyo Kulesi ve Edo Kalesi yerine inşa edilen İmparatorluk Sarayı da
+            Tokyo’nun önemli mimari yapılarından birkaçıdır.</p>
+
+            <section id="mainSlider2" class="slider"> <div id="mainCaption" class="caption"></div></section>
+    </div>
+</div>
+
+
+   
+   <!--Footer-->
+   <%- include ("partials/_footer")%>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gezi Rehberi-Hiroshima</title>
+
+    <link rel="shortcut icon" type="image/png" href="\img\logo2.png" />
+    
+    <link rel="stylesheet" type="text/css" href="\css\geziRehberi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #mainSlider {
+            height: 350px;
+            background: url('../img/hiroshima1.jpg') center center no-repeat;
+            background-size: cover;
+            margin-bottom: 145px;
+        }
+
+        #mainSlider2 {
+            height: 350px;
+            background: url('../img/hiroshima2.jpg') center center no-repeat;
+            background-size: cover;
+            margin-bottom: 145px;
+            margin-top: 145px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+     <!--menu-->
+<%- include ("partials/_menu")%>
+
+
+    <!--main section-->
+
+    <section id="mainSlider" class="slider">
+        <div id="mainCaption" class="caption">
+            <h3>HISROSHIMA</h3>
+            <p>Trajik bir geçmişi olan bölgesel başkent.</p>
+        </div>
+    </section>
+
+
+    <div class="container-wrapper">
+
+        <aside class="sidebar">
+            <hr><br>
+            <h2>GEZİ REHBERİ</h2>
+            <hr><br>
+            <br>
+            <ul>
+                <li><a href="/tokyo">TOKYO</a></li>
+                <li><a href="/kyoto">KYOTO</a></li>
+                <li><a href="/nara">OSAKA</a></li>
+                <li><a href="/fujidagi">FUJİ DAĞI</a></li>
+                <li><a href="/nara">NARA</a></li>
+                <li><a href="/hiroshima">HIROSHIMA</a></li>
+            </ul>
+        </aside>
+
+
+    <div class="rehberAciklama">
+        <p>Japonya’nın atom bombası ile hafızamızda yer eden en buruk şehridir Hiroshima. Şehir hem atom bombası
+            felaketi hem de bomba ardından yayılan radyasyonlar ile çok büyük felaket yaşamış ve kayıplar vermiş
+            olmasına rağmen, kendini zor da olsa toparlamayı başarmış ve küllerinden doğmuştur. </p><br><br><br>
+        <h3>Hiroshima Şehrinin Kısa Tarihi</h3><br>
+        <p>Kelime olarak “geniş ada“ anlamına gelen şehir uzun yıllar önce körfez kenarındaki Zen – Budist tapınağına
+            bağlı küçük bir balıkçı köyüydü. Öta Nehrinin kıyısında bulunan şehir kanallar sayesinde adacıklar şeklinde
+            konumlanmış ve sürekli refah içerisinde yaşayan bir şehirdir. Edo döneminde bu refahlığı sürdürmüş ve tarihi
+            Hiroshima kalesi olarak bilinen kale de bu dönem zamanında inşa edilmiştir. Artan endüstrisi ile
+            İmparatorluk döneminde dikkat çeken şehirlerden olduğu için, hem bölgesinin başkenti olmuş hem de büyük bir
+            şehir merkezi olmuştur.
+        </p><br><br><br>
+        <h3>Hiroshima Barış Anıtı</h3><br>
+        <p>Hiroshima’nın doğu kıyısında bulunan 3 katlı tuğla bina 75 yıldan beri restore edilmemiş halde bulunuyor.
+            1915 yılında Çek mimar Jan Letzel tarafından yapılan bu bina sergi salonu olarak kullanılıyordu. Serginin
+            olduğu günde de binanın tam üzerine atom bombası patlıyor ve içerisindeki tüm insanların ölmesine rağmen
+            binanın kubbesi ayakta kalıyor. Aslında bombanın atılacağı yer bu binanın yakınındaki bir köprüydü fakat
+            ıskalama sonucunda bu binanın üzerinde patlıyor.</p>
+
+    <section id="mainSlider2" class="slider">
+        <div id="mainCaption" class="caption"></div>
+
+    </div>
+    </div>
+    
+
+    
+     <!--Footer-->
+   <%- include ("partials/_footer")%>

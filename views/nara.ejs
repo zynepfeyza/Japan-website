@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gezi Rehberi-Nara</title>
+
+    <link rel="shortcut icon" type="image/png" href="\img\logo2.png" />
+    
+    <link rel="stylesheet" type="text/css" href="\css\geziRehberi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #mainSlider {
+            height: 350px;
+            background: url('../img/nara.jpg') center center no-repeat;
+            background-size: cover;
+            margin-bottom: 145px;
+        }
+
+        #mainSlider2 {
+            height: 350px;
+            background: url('../img/nara2.jpg') center center no-repeat;
+            background-size: cover;
+            margin-bottom: 145px;
+            margin-top: 145px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+     <!--menu-->
+<%- include ("partials/_menu")%>
+
+    <!--main section-->
+
+    <section id="mainSlider" class="slider">
+        <div id="mainCaption" class="caption">
+            <h3>NARA</h3>
+            <p>Japonya'nın ilk kalıcı başkenti.</p>
+        </div>
+    </section>
+
+    <div class="container-wrapper">
+
+        <aside class="sidebar">
+            <hr><br>
+            <h2>GEZİ REHBERİ</h2>
+            <hr><br>
+            <br>
+            <ul>
+                <li><a href="/tokyo">TOKYO</a></li>
+                <li><a href="/kyoto">KYOTO</a></li>
+                <li><a href="/nara">OSAKA</a></li>
+                <li><a href="/fujidagi">FUJİ DAĞI</a></li>
+                <li><a href="/nara">NARA</a></li>
+                <li><a href="/hiroshima">HIROSHIMA</a></li>
+            </ul>
+        </aside>
+
+
+    <div class="rehberAciklama">
+        <p>Japonya’nın tam ortasında bulunan Nara adlı şehir 1200’ün üzerinde Sika cinsi geyiğe ev sahipliği yapıyor.
+            Kimseye zarar vermeden ve kimseden zarar görmeden şehirde özgürce dolaşıyorlar. Şehir trafiği veya yayalar
+            onları hiç rahatsız etmiyor. İstedikleri gibi yolun kenarına oturup trafiği de aksatabiliyorlar. Kimse
+            bundan rahatsız olmuyor.</p><br><br><br>
+        <h3> Kasuga Tapınağı</h3><br>
+        <p>Wakakusa dağlarının eteğinde bulunan bu güzel bölge Kasuga Tapınağı’na ev sahipliği yaptığından her yıl
+            yüzbinlerce Japon bu tapınağa gelip ibadet ediyor. Eskiden milli parkın bir kısmı özel mülk iken şimdi
+            tamamıyla kamuya açılmış ve halkın kullanımına verilmiş durumda.
+        </p><br><br><br>
+        <h3>Nara'da Ulaşım ve Konaklama</h3><br>
+        <p>Japon imparatorluğunun en önemli dini ve milli ögelerinden biri olan Kasuga Tapınağı (Unesco Dünya Kültürü
+            koruma listesindedir), ilk Heian hanedanı zamanında yani 9’uncu yüzyılda kutsal sayılmaya başlandı.
+            İmparator Murakami, elçilerine verdiği bir emirle imporatorluk içindeki tüm kutsal yerlerin kontrol edilip
+            kendisine bildirilmesini istedi. Kendisine gelen 16 tapınak isminde birisi de Kasuga Tapınağı’ydı. 1871
+            yılından 1946 yılına kadar tapınak Kanpei-Taisha (官幣大社 ), devletin en çok desteklediği tapınak
+            statüsündeydi.</p>
+
+
+        <section id="mainSlider2" class="slider">
+            <div id="mainCaption" class="caption"></div>
+        </section>
+    </div>
+    </div>
+
+     <!--Footer-->
+   <%- include ("partials/_footer")%>
